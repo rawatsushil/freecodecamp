@@ -10,5 +10,7 @@ fs.readFile(filepath,function(err,data){
         var array = data.toString().split("\n");
         console.log(array.length-1);
         
+        
+        
     
 });
